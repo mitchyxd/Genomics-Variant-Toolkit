@@ -1,0 +1,213 @@
+{
+  "locus": {
+    "length": 6000,
+    "coverage": 60.0,
+    "read_length": 100,
+    "n_reads": 3600,
+    "n_snv": 25,
+    "n_indel": 3,
+    "seed": 0
+  },
+  "reference_annotation": {
+    "length_bp": 6000,
+    "gc_content": 0.4575,
+    "gc_skew": -0.0018,
+    "n_orfs_min50aa": 14,
+    "true_cds_start": 2400,
+    "true_cds_end": 3600,
+    "true_protein_length_aa": 399,
+    "longest_orf_aa": 399,
+    "longest_orf_strand": "+",
+    "longest_orf_recovers_true_cds": true,
+    "protein_mw_da": 44202.4,
+    "protein_pi": 9.33
+  },
+  "mapping": {
+    "n_reads": 3600,
+    "n_mapped": 3501,
+    "mapping_rate": 0.9725,
+    "mean_mapq": 53.87
+  },
+  "variant_calling": {
+    "n_truth_snv": 25,
+    "n_called": 25,
+    "tp": 25,
+    "fp": 0,
+    "fn": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "allele_accuracy": 1.0,
+    "genotype_accuracy": 1.0
+  },
+  "consequences": {
+    "upstream_variant": 10,
+    "downstream_variant": 10,
+    "synonymous_variant": 2,
+    "missense_variant": 2,
+    "stop_gained": 1
+  },
+  "coverage_titration": {
+    "min_depth_for_95pct_recall": 19.305277221108884,
+    "ladder": [
+      {
+        "mean_depth": 3.0552,
+        "precision": NaN,
+        "recall": 0.0,
+        "f1": 0.0,
+        "genotype_accuracy": NaN
+      },
+      {
+        "mean_depth": 4.8249,
+        "precision": 1.0,
+        "recall": 0.12,
+        "f1": 0.2143,
+        "genotype_accuracy": 1.0
+      },
+      {
+        "mean_depth": 7.754,
+        "precision": 1.0,
+        "recall": 0.52,
+        "f1": 0.6842,
+        "genotype_accuracy": 0.8462
+      },
+      {
+        "mean_depth": 11.5898,
+        "precision": 1.0,
+        "recall": 0.88,
+        "f1": 0.9362,
+        "genotype_accuracy": 0.9545
+      },
+      {
+        "mean_depth": 15.4476,
+        "precision": 1.0,
+        "recall": 0.92,
+        "f1": 0.9583,
+        "genotype_accuracy": 1.0
+      },
+      {
+        "mean_depth": 19.3053,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "genotype_accuracy": 1.0
+      },
+      {
+        "mean_depth": 29.0247,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "genotype_accuracy": 1.0
+      },
+      {
+        "mean_depth": 43.5872,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "genotype_accuracy": 1.0
+      },
+      {
+        "mean_depth": 57.9299,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "genotype_accuracy": 1.0
+      }
+    ]
+  },
+  "indel_discovery": {
+    "n_truth": 3,
+    "n_recovered": 3
+  },
+  "phylogenetics": {
+    "clock_like": {
+      "p_upgma": {
+        "rf_distance": 0,
+        "normalised_rf": 0.0,
+        "shared_splits": 5,
+        "n_splits_true": 5,
+        "correct": true
+      },
+      "p_nj": {
+        "rf_distance": 0,
+        "normalised_rf": 0.0,
+        "shared_splits": 5,
+        "n_splits_true": 5,
+        "correct": true
+      },
+      "jc69_upgma": {
+        "rf_distance": 0,
+        "normalised_rf": 0.0,
+        "shared_splits": 5,
+        "n_splits_true": 5,
+        "correct": true
+      },
+      "jc69_nj": {
+        "rf_distance": 0,
+        "normalised_rf": 0.0,
+        "shared_splits": 5,
+        "n_splits_true": 5,
+        "correct": true
+      },
+      "kmer_upgma": {
+        "rf_distance": 0,
+        "normalised_rf": 0.0,
+        "shared_splits": 5,
+        "n_splits_true": 5,
+        "correct": true
+      },
+      "kmer_nj": {
+        "rf_distance": 0,
+        "normalised_rf": 0.0,
+        "shared_splits": 5,
+        "n_splits_true": 5,
+        "correct": true
+      }
+    },
+    "rate_heterogeneous": {
+      "p_upgma": {
+        "rf_distance": 4,
+        "normalised_rf": 0.4,
+        "shared_splits": 3,
+        "n_splits_true": 5,
+        "correct": false
+      },
+      "p_nj": {
+        "rf_distance": 0,
+        "normalised_rf": 0.0,
+        "shared_splits": 5,
+        "n_splits_true": 5,
+        "correct": true
+      },
+      "jc69_upgma": {
+        "rf_distance": 4,
+        "normalised_rf": 0.4,
+        "shared_splits": 3,
+        "n_splits_true": 5,
+        "correct": false
+      },
+      "jc69_nj": {
+        "rf_distance": 0,
+        "normalised_rf": 0.0,
+        "shared_splits": 5,
+        "n_splits_true": 5,
+        "correct": true
+      },
+      "kmer_upgma": {
+        "rf_distance": 4,
+        "normalised_rf": 0.4,
+        "shared_splits": 3,
+        "n_splits_true": 5,
+        "correct": false
+      },
+      "kmer_nj": {
+        "rf_distance": 4,
+        "normalised_rf": 0.4,
+        "shared_splits": 3,
+        "n_splits_true": 5,
+        "correct": false
+      }
+    }
+  },
+  "runtime_s": 7.7
+}

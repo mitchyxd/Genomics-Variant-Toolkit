@@ -1,0 +1,4 @@
+truth_pos,truth_kind,truth_ref,truth_alt,detected,detected_pos,detected_kind,position_error_bp,alignment_identity
+958,insertion,C,CGG,True,958,insertion,0,0.9934
+2686,deletion,CGA,C,True,2686,deletion,0,0.9933
+5427,insertion,G,GT,True,5427,insertion,0,0.995
